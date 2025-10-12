@@ -1,0 +1,24 @@
+{
+  "name": "Token-Requestor-Onboarding",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Utility to onboard Token Requestors",
+  "main": "app.ts",
+  "author": "RuthvikChandra Vanam",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.27",
+    "winston": "^3.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

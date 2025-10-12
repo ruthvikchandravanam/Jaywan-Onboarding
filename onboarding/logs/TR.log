@@ -1,0 +1,480 @@
+
+[2025-10-11T20:28:13.875Z] INFO: Batch job started
+[2025-10-11T20:28:13.876Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T20:28:13.876Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T20:28:13.878Z] INFO: Processing started
+[2025-10-11T20:28:13.878Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T20:28:13.878Z] INFO: {
+  "tokenRequestorId": "TRX001234567",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...\n-----END PUBLIC KEY-----",
+  "presentationModesSupport": "NFC,QR,InApp",
+  "keyId": "key-abc-123",
+  "isIssuerWallet": "Y",
+  "createdBy": "admin_user",
+  "createdDate": "2025-10-11T14:30:00Z",
+  "updatedBy": "admin_user",
+  "updatedDate": "2025-10-11T15:00:00Z",
+  "hashKey": "abc123hashkeyvalue",
+  "requestorType": "Bank",
+  "tokenServiceDomain": "payments.example.com",
+  "tokenRequestorName": "Example Bank",
+  "tokenRequestorLogoUrl": "https://example.com/logo.png",
+  "tokenRequestorSignatureUrl": "https://example.com/signature.png",
+  "tokenRequestorDsAgreementUrl": "https://example.com/agreement.pdf",
+  "tokenRequestorDsAgreementId": "AG12345",
+  "tokenRequestorDsAgreementVer": "v2.0",
+  "tokenRequestorDsAgreementDt": "2025-10-01",
+  "issuerSubmittedTokenRequestor": "N",
+  "tokenRequestorContactEmail": "contact@example.com",
+  "tokenRequestorContactName": "Jane Doe",
+  "tokenRequestorContactPhone": "+971501234567",
+  "tokenRequestorContactTitle": "Partnership Manager",
+  "tokenRequestorContactUrl": "https://example.com/contact",
+  "tokenRequestorTokenServiceUrl": "https://api.example.com/token",
+  "tokenRequestorTokenServiceVer": "1.0.0",
+  "tokenRequestorTokenServiceDt": "2025-09-30",
+  "tokenRequestorLogoPath": "/assets/logos/example.png",
+  "tokenRequestorSignaturePath": "/assets/signatures/example.png",
+  "tokenRequestorDsAgreementPath": "/docs/agreement.pdf",
+  "kekId": "kek-001",
+  "kekValue": "encrypted-kek-value",
+  "dekId": "dek-001",
+  "dekValue": "encrypted-dek-value",
+  "rsaKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...",
+  "rsaAlgorithm": "RSA1_5"
+}
+[2025-10-11T20:28:13.917Z] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
+[2025-10-11T20:28:13.917Z] INFO: Batch job completed
+
+[2025-10-11T21:40:28.601Z] INFO: Batch job started
+[2025-10-11T21:40:28.601Z] INFO: Found 0 files in 'in' folder
+[2025-10-11T21:40:28.603Z] INFO: Processing started
+[2025-10-11T21:40:28.604Z] INFO: Batch job completed
+
+[2025-10-11T22:47:09.332Z] INFO: Batch job started
+[2025-10-11T22:47:09.333Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:47:09.333Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:47:09.334Z] INFO: Processing started
+[2025-10-11T22:47:09.334Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:47:09.335Z] INFO: {
+  "tokenRequestorId": "TRX001234567",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...\n-----END PUBLIC KEY-----",
+  "presentationModesSupport": "NFC,QR,InApp",
+  "keyId": "key-abc-123",
+  "isIssuerWallet": "Y",
+  "createdBy": "admin_user",
+  "createdDate": "2025-10-11T14:30:00Z",
+  "updatedBy": "admin_user",
+  "updatedDate": "2025-10-11T15:00:00Z",
+  "hashKey": "abc123hashkeyvalue",
+  "requestorType": "Bank",
+  "tokenServiceDomain": "payments.example.com",
+  "tokenRequestorName": "Example Bank",
+  "tokenRequestorLogoUrl": "https://example.com/logo.png",
+  "tokenRequestorSignatureUrl": "https://example.com/signature.png",
+  "tokenRequestorDsAgreementUrl": "https://example.com/agreement.pdf",
+  "tokenRequestorDsAgreementId": "AG12345",
+  "tokenRequestorDsAgreementVer": "v2.0",
+  "tokenRequestorDsAgreementDt": "2025-10-01",
+  "issuerSubmittedTokenRequestor": "N",
+  "tokenRequestorContactEmail": "contact@example.com",
+  "tokenRequestorContactName": "Jane Doe",
+  "tokenRequestorContactPhone": "+971501234567",
+  "tokenRequestorContactTitle": "Partnership Manager",
+  "tokenRequestorContactUrl": "https://example.com/contact",
+  "tokenRequestorTokenServiceUrl": "https://api.example.com/token",
+  "tokenRequestorTokenServiceVer": "1.0.0",
+  "tokenRequestorTokenServiceDt": "2025-09-30",
+  "tokenRequestorLogoPath": "/assets/logos/example.png",
+  "tokenRequestorSignaturePath": "/assets/signatures/example.png",
+  "tokenRequestorDsAgreementPath": "/docs/agreement.pdf",
+  "kekId": "kek-001",
+  "kekValue": "encrypted-kek-value",
+  "dekId": "dek-001",
+  "dekValue": "encrypted-dek-value",
+  "rsaKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...",
+  "rsaAlgorithm": "RSA1_5"
+}
+[2025-10-11T22:47:09.356Z] ERROR: Error: DataTypeNotSupportedError: Data type "timestamp" in "IssuerORM.updatedAt" is not supported by "sqlite" database.
+[2025-10-11T22:47:09.356Z] INFO: Batch job completed
+
+[2025-10-11T22:49:40.010Z] INFO: Batch job started
+[2025-10-11T22:49:40.011Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:49:40.011Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:49:40.013Z] INFO: Processing started
+[2025-10-11T22:49:40.013Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:49:40.013Z] INFO: {
+  "tokenRequestorId": "TRX001234567",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...\n-----END PUBLIC KEY-----",
+  "presentationModesSupport": "NFC,QR,InApp",
+  "keyId": "key-abc-123",
+  "isIssuerWallet": "Y",
+  "createdBy": "admin_user",
+  "createdDate": "2025-10-11T14:30:00Z",
+  "updatedBy": "admin_user",
+  "updatedDate": "2025-10-11T15:00:00Z",
+  "hashKey": "abc123hashkeyvalue",
+  "requestorType": "Bank",
+  "tokenServiceDomain": "payments.example.com",
+  "tokenRequestorName": "Example Bank",
+  "tokenRequestorLogoUrl": "https://example.com/logo.png",
+  "tokenRequestorSignatureUrl": "https://example.com/signature.png",
+  "tokenRequestorDsAgreementUrl": "https://example.com/agreement.pdf",
+  "tokenRequestorDsAgreementId": "AG12345",
+  "tokenRequestorDsAgreementVer": "v2.0",
+  "tokenRequestorDsAgreementDt": "2025-10-01",
+  "issuerSubmittedTokenRequestor": "N",
+  "tokenRequestorContactEmail": "contact@example.com",
+  "tokenRequestorContactName": "Jane Doe",
+  "tokenRequestorContactPhone": "+971501234567",
+  "tokenRequestorContactTitle": "Partnership Manager",
+  "tokenRequestorContactUrl": "https://example.com/contact",
+  "tokenRequestorTokenServiceUrl": "https://api.example.com/token",
+  "tokenRequestorTokenServiceVer": "1.0.0",
+  "tokenRequestorTokenServiceDt": "2025-09-30",
+  "tokenRequestorLogoPath": "/assets/logos/example.png",
+  "tokenRequestorSignaturePath": "/assets/signatures/example.png",
+  "tokenRequestorDsAgreementPath": "/docs/agreement.pdf",
+  "kekId": "kek-001",
+  "kekValue": "encrypted-kek-value",
+  "dekId": "dek-001",
+  "dekValue": "encrypted-dek-value",
+  "rsaKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...",
+  "rsaAlgorithm": "RSA1_5"
+}
+[2025-10-11T22:49:40.042Z] ERROR: Error: DataTypeNotSupportedError: Data type "mediumtext" in "IssuerORM.metaData" is not supported by "sqlite" database.
+[2025-10-11T22:49:40.042Z] INFO: Batch job completed
+
+[2025-10-11T22:50:26.237Z] INFO: Batch job started
+[2025-10-11T22:50:26.237Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:50:26.237Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:50:26.238Z] INFO: Processing started
+[2025-10-11T22:50:26.238Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:50:26.239Z] INFO: {
+  "tokenRequestorId": "TRX001234567",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...\n-----END PUBLIC KEY-----",
+  "presentationModesSupport": "NFC,QR,InApp",
+  "keyId": "key-abc-123",
+  "isIssuerWallet": "Y",
+  "createdBy": "admin_user",
+  "createdDate": "2025-10-11T14:30:00Z",
+  "updatedBy": "admin_user",
+  "updatedDate": "2025-10-11T15:00:00Z",
+  "hashKey": "abc123hashkeyvalue",
+  "requestorType": "Bank",
+  "tokenServiceDomain": "payments.example.com",
+  "tokenRequestorName": "Example Bank",
+  "tokenRequestorLogoUrl": "https://example.com/logo.png",
+  "tokenRequestorSignatureUrl": "https://example.com/signature.png",
+  "tokenRequestorDsAgreementUrl": "https://example.com/agreement.pdf",
+  "tokenRequestorDsAgreementId": "AG12345",
+  "tokenRequestorDsAgreementVer": "v2.0",
+  "tokenRequestorDsAgreementDt": "2025-10-01",
+  "issuerSubmittedTokenRequestor": "N",
+  "tokenRequestorContactEmail": "contact@example.com",
+  "tokenRequestorContactName": "Jane Doe",
+  "tokenRequestorContactPhone": "+971501234567",
+  "tokenRequestorContactTitle": "Partnership Manager",
+  "tokenRequestorContactUrl": "https://example.com/contact",
+  "tokenRequestorTokenServiceUrl": "https://api.example.com/token",
+  "tokenRequestorTokenServiceVer": "1.0.0",
+  "tokenRequestorTokenServiceDt": "2025-09-30",
+  "tokenRequestorLogoPath": "/assets/logos/example.png",
+  "tokenRequestorSignaturePath": "/assets/signatures/example.png",
+  "tokenRequestorDsAgreementPath": "/docs/agreement.pdf",
+  "kekId": "kek-001",
+  "kekValue": "encrypted-kek-value",
+  "dekId": "dek-001",
+  "dekValue": "encrypted-dek-value",
+  "rsaKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...",
+  "rsaAlgorithm": "RSA1_5"
+}
+[2025-10-11T22:50:26.252Z] ERROR: Error: DataTypeNotSupportedError: Data type "char" in "IssuerBinORM.isReusable" is not supported by "sqlite" database.
+[2025-10-11T22:50:26.253Z] INFO: Batch job completed
+
+[2025-10-11T22:51:11.136Z] INFO: Batch job started
+[2025-10-11T22:51:11.137Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:51:11.137Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:51:11.138Z] INFO: Processing started
+[2025-10-11T22:51:11.138Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:51:11.138Z] INFO: {
+  "tokenRequestorId": "TRX001234567",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...\n-----END PUBLIC KEY-----",
+  "presentationModesSupport": "NFC,QR,InApp",
+  "keyId": "key-abc-123",
+  "isIssuerWallet": "Y",
+  "createdBy": "admin_user",
+  "createdDate": "2025-10-11T14:30:00Z",
+  "updatedBy": "admin_user",
+  "updatedDate": "2025-10-11T15:00:00Z",
+  "hashKey": "abc123hashkeyvalue",
+  "requestorType": "Bank",
+  "tokenServiceDomain": "payments.example.com",
+  "tokenRequestorName": "Example Bank",
+  "tokenRequestorLogoUrl": "https://example.com/logo.png",
+  "tokenRequestorSignatureUrl": "https://example.com/signature.png",
+  "tokenRequestorDsAgreementUrl": "https://example.com/agreement.pdf",
+  "tokenRequestorDsAgreementId": "AG12345",
+  "tokenRequestorDsAgreementVer": "v2.0",
+  "tokenRequestorDsAgreementDt": "2025-10-01",
+  "issuerSubmittedTokenRequestor": "N",
+  "tokenRequestorContactEmail": "contact@example.com",
+  "tokenRequestorContactName": "Jane Doe",
+  "tokenRequestorContactPhone": "+971501234567",
+  "tokenRequestorContactTitle": "Partnership Manager",
+  "tokenRequestorContactUrl": "https://example.com/contact",
+  "tokenRequestorTokenServiceUrl": "https://api.example.com/token",
+  "tokenRequestorTokenServiceVer": "1.0.0",
+  "tokenRequestorTokenServiceDt": "2025-09-30",
+  "tokenRequestorLogoPath": "/assets/logos/example.png",
+  "tokenRequestorSignaturePath": "/assets/signatures/example.png",
+  "tokenRequestorDsAgreementPath": "/docs/agreement.pdf",
+  "kekId": "kek-001",
+  "kekValue": "encrypted-kek-value",
+  "dekId": "dek-001",
+  "dekValue": "encrypted-dek-value",
+  "rsaKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...",
+  "rsaAlgorithm": "RSA1_5"
+}
+[2025-10-11T22:51:11.157Z] ERROR: Error: TypeORMError: Column maxOtpRetryCount of Entity IssuerBinORM does not support length property.
+[2025-10-11T22:51:11.157Z] INFO: Batch job completed
+
+[2025-10-11T22:51:53.477Z] INFO: Batch job started
+[2025-10-11T22:51:53.478Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:51:53.478Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:51:53.479Z] INFO: Processing started
+[2025-10-11T22:51:53.479Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:51:53.479Z] INFO: {
+  "tokenRequestorId": "TRX001234567",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...\n-----END PUBLIC KEY-----",
+  "presentationModesSupport": "NFC,QR,InApp",
+  "keyId": "key-abc-123",
+  "isIssuerWallet": "Y",
+  "createdBy": "admin_user",
+  "createdDate": "2025-10-11T14:30:00Z",
+  "updatedBy": "admin_user",
+  "updatedDate": "2025-10-11T15:00:00Z",
+  "hashKey": "abc123hashkeyvalue",
+  "requestorType": "Bank",
+  "tokenServiceDomain": "payments.example.com",
+  "tokenRequestorName": "Example Bank",
+  "tokenRequestorLogoUrl": "https://example.com/logo.png",
+  "tokenRequestorSignatureUrl": "https://example.com/signature.png",
+  "tokenRequestorDsAgreementUrl": "https://example.com/agreement.pdf",
+  "tokenRequestorDsAgreementId": "AG12345",
+  "tokenRequestorDsAgreementVer": "v2.0",
+  "tokenRequestorDsAgreementDt": "2025-10-01",
+  "issuerSubmittedTokenRequestor": "N",
+  "tokenRequestorContactEmail": "contact@example.com",
+  "tokenRequestorContactName": "Jane Doe",
+  "tokenRequestorContactPhone": "+971501234567",
+  "tokenRequestorContactTitle": "Partnership Manager",
+  "tokenRequestorContactUrl": "https://example.com/contact",
+  "tokenRequestorTokenServiceUrl": "https://api.example.com/token",
+  "tokenRequestorTokenServiceVer": "1.0.0",
+  "tokenRequestorTokenServiceDt": "2025-09-30",
+  "tokenRequestorLogoPath": "/assets/logos/example.png",
+  "tokenRequestorSignaturePath": "/assets/signatures/example.png",
+  "tokenRequestorDsAgreementPath": "/docs/agreement.pdf",
+  "kekId": "kek-001",
+  "kekValue": "encrypted-kek-value",
+  "dekId": "dek-001",
+  "dekValue": "encrypted-dek-value",
+  "rsaKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...",
+  "rsaAlgorithm": "RSA1_5"
+}
+[2025-10-11T22:51:53.506Z] ERROR: Error: QueryFailedError: SQLITE_ERROR: cannot start a transaction within a transaction
+[2025-10-11T22:51:53.506Z] INFO: Batch job completed
+
+[2025-10-11T22:53:11.511Z] INFO: Batch job started
+[2025-10-11T22:53:11.512Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:53:11.513Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:53:11.514Z] INFO: Processing started
+[2025-10-11T22:53:11.514Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:53:11.515Z] INFO: {
+  "tokenRequestorId": "TRX001234567",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...\n-----END PUBLIC KEY-----",
+  "presentationModesSupport": "NFC,QR,InApp",
+  "keyId": "key-abc-123",
+  "isIssuerWallet": "Y",
+  "createdBy": "admin_user",
+  "createdDate": "2025-10-11T14:30:00Z",
+  "updatedBy": "admin_user",
+  "updatedDate": "2025-10-11T15:00:00Z",
+  "hashKey": "abc123hashkeyvalue",
+  "requestorType": "Bank",
+  "tokenServiceDomain": "payments.example.com",
+  "tokenRequestorName": "Example Bank",
+  "tokenRequestorLogoUrl": "https://example.com/logo.png",
+  "tokenRequestorSignatureUrl": "https://example.com/signature.png",
+  "tokenRequestorDsAgreementUrl": "https://example.com/agreement.pdf",
+  "tokenRequestorDsAgreementId": "AG12345",
+  "tokenRequestorDsAgreementVer": "v2.0",
+  "tokenRequestorDsAgreementDt": "2025-10-01",
+  "issuerSubmittedTokenRequestor": "N",
+  "tokenRequestorContactEmail": "contact@example.com",
+  "tokenRequestorContactName": "Jane Doe",
+  "tokenRequestorContactPhone": "+971501234567",
+  "tokenRequestorContactTitle": "Partnership Manager",
+  "tokenRequestorContactUrl": "https://example.com/contact",
+  "tokenRequestorTokenServiceUrl": "https://api.example.com/token",
+  "tokenRequestorTokenServiceVer": "1.0.0",
+  "tokenRequestorTokenServiceDt": "2025-09-30",
+  "tokenRequestorLogoPath": "/assets/logos/example.png",
+  "tokenRequestorSignaturePath": "/assets/signatures/example.png",
+  "tokenRequestorDsAgreementPath": "/docs/agreement.pdf",
+  "kekId": "kek-001",
+  "kekValue": "encrypted-kek-value",
+  "dekId": "dek-001",
+  "dekValue": "encrypted-dek-value",
+  "rsaKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...",
+  "rsaAlgorithm": "RSA1_5"
+}
+[2025-10-11T22:53:11.536Z] ERROR: Error: QueryFailedError: SQLITE_ERROR: cannot start a transaction within a transaction
+[2025-10-11T22:53:11.537Z] INFO: Batch job completed
+
+[2025-10-11T22:53:55.337Z] INFO: Batch job started
+[2025-10-11T22:53:55.338Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:53:55.338Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:53:55.338Z] INFO: Processing started
+[2025-10-11T22:53:55.338Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:53:55.339Z] INFO: {
+  "tokenRequestorId": "TRX001234567",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...\n-----END PUBLIC KEY-----",
+  "presentationModesSupport": "NFC,QR,InApp",
+  "keyId": "key-abc-123",
+  "isIssuerWallet": "Y",
+  "createdBy": "admin_user",
+  "createdDate": "2025-10-11T14:30:00Z",
+  "updatedBy": "admin_user",
+  "updatedDate": "2025-10-11T15:00:00Z",
+  "hashKey": "abc123hashkeyvalue",
+  "requestorType": "Bank",
+  "tokenServiceDomain": "payments.example.com",
+  "tokenRequestorName": "Example Bank",
+  "tokenRequestorLogoUrl": "https://example.com/logo.png",
+  "tokenRequestorSignatureUrl": "https://example.com/signature.png",
+  "tokenRequestorDsAgreementUrl": "https://example.com/agreement.pdf",
+  "tokenRequestorDsAgreementId": "AG12345",
+  "tokenRequestorDsAgreementVer": "v2.0",
+  "tokenRequestorDsAgreementDt": "2025-10-01",
+  "issuerSubmittedTokenRequestor": "N",
+  "tokenRequestorContactEmail": "contact@example.com",
+  "tokenRequestorContactName": "Jane Doe",
+  "tokenRequestorContactPhone": "+971501234567",
+  "tokenRequestorContactTitle": "Partnership Manager",
+  "tokenRequestorContactUrl": "https://example.com/contact",
+  "tokenRequestorTokenServiceUrl": "https://api.example.com/token",
+  "tokenRequestorTokenServiceVer": "1.0.0",
+  "tokenRequestorTokenServiceDt": "2025-09-30",
+  "tokenRequestorLogoPath": "/assets/logos/example.png",
+  "tokenRequestorSignaturePath": "/assets/signatures/example.png",
+  "tokenRequestorDsAgreementPath": "/docs/agreement.pdf",
+  "kekId": "kek-001",
+  "kekValue": "encrypted-kek-value",
+  "dekId": "dek-001",
+  "dekValue": "encrypted-dek-value",
+  "rsaKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...",
+  "rsaAlgorithm": "RSA1_5"
+}
+[2025-10-11T22:53:55.360Z] ERROR: Error: QueryFailedError: SQLITE_ERROR: near "`TIMESTAMP`": syntax error
+[2025-10-11T22:53:55.360Z] INFO: Batch job completed
+
+[2025-10-11T22:54:43.817Z] INFO: Batch job started
+[2025-10-11T22:54:43.818Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:54:43.818Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:54:43.818Z] INFO: Processing started
+[2025-10-11T22:54:43.818Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:54:43.819Z] INFO: {
+  "tokenRequestorId": "TRX001234567",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...\n-----END PUBLIC KEY-----",
+  "presentationModesSupport": "NFC,QR,InApp",
+  "keyId": "key-abc-123",
+  "isIssuerWallet": "Y",
+  "createdBy": "admin_user",
+  "createdDate": "2025-10-11T14:30:00Z",
+  "updatedBy": "admin_user",
+  "updatedDate": "2025-10-11T15:00:00Z",
+  "hashKey": "abc123hashkeyvalue",
+  "requestorType": "Bank",
+  "tokenServiceDomain": "payments.example.com",
+  "tokenRequestorName": "Example Bank",
+  "tokenRequestorLogoUrl": "https://example.com/logo.png",
+  "tokenRequestorSignatureUrl": "https://example.com/signature.png",
+  "tokenRequestorDsAgreementUrl": "https://example.com/agreement.pdf",
+  "tokenRequestorDsAgreementId": "AG12345",
+  "tokenRequestorDsAgreementVer": "v2.0",
+  "tokenRequestorDsAgreementDt": "2025-10-01",
+  "issuerSubmittedTokenRequestor": "N",
+  "tokenRequestorContactEmail": "contact@example.com",
+  "tokenRequestorContactName": "Jane Doe",
+  "tokenRequestorContactPhone": "+971501234567",
+  "tokenRequestorContactTitle": "Partnership Manager",
+  "tokenRequestorContactUrl": "https://example.com/contact",
+  "tokenRequestorTokenServiceUrl": "https://api.example.com/token",
+  "tokenRequestorTokenServiceVer": "1.0.0",
+  "tokenRequestorTokenServiceDt": "2025-09-30",
+  "tokenRequestorLogoPath": "/assets/logos/example.png",
+  "tokenRequestorSignaturePath": "/assets/signatures/example.png",
+  "tokenRequestorDsAgreementPath": "/docs/agreement.pdf",
+  "kekId": "kek-001",
+  "kekValue": "encrypted-kek-value",
+  "dekId": "dek-001",
+  "dekValue": "encrypted-dek-value",
+  "rsaKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...",
+  "rsaAlgorithm": "RSA1_5"
+}
+[2025-10-11T22:54:43.845Z] ERROR: Error: QueryFailedError: SQLITE_ERROR: near "`TIMESTAMP`": syntax error
+[2025-10-11T22:54:43.845Z] INFO: Batch job completed
+
+[2025-10-11T22:55:39.718Z] INFO: Batch job started
+[2025-10-11T22:55:39.719Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:55:39.719Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:55:39.719Z] INFO: Processing started
+[2025-10-11T22:55:39.719Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-11T22:55:39.719Z] INFO: {
+  "tokenRequestorId": "TRX001234567",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...\n-----END PUBLIC KEY-----",
+  "presentationModesSupport": "NFC,QR,InApp",
+  "keyId": "key-abc-123",
+  "isIssuerWallet": "Y",
+  "createdBy": "admin_user",
+  "createdDate": "2025-10-11T14:30:00Z",
+  "updatedBy": "admin_user",
+  "updatedDate": "2025-10-11T15:00:00Z",
+  "hashKey": "abc123hashkeyvalue",
+  "requestorType": "Bank",
+  "tokenServiceDomain": "payments.example.com",
+  "tokenRequestorName": "Example Bank",
+  "tokenRequestorLogoUrl": "https://example.com/logo.png",
+  "tokenRequestorSignatureUrl": "https://example.com/signature.png",
+  "tokenRequestorDsAgreementUrl": "https://example.com/agreement.pdf",
+  "tokenRequestorDsAgreementId": "AG12345",
+  "tokenRequestorDsAgreementVer": "v2.0",
+  "tokenRequestorDsAgreementDt": "2025-10-01",
+  "issuerSubmittedTokenRequestor": "N",
+  "tokenRequestorContactEmail": "contact@example.com",
+  "tokenRequestorContactName": "Jane Doe",
+  "tokenRequestorContactPhone": "+971501234567",
+  "tokenRequestorContactTitle": "Partnership Manager",
+  "tokenRequestorContactUrl": "https://example.com/contact",
+  "tokenRequestorTokenServiceUrl": "https://api.example.com/token",
+  "tokenRequestorTokenServiceVer": "1.0.0",
+  "tokenRequestorTokenServiceDt": "2025-09-30",
+  "tokenRequestorLogoPath": "/assets/logos/example.png",
+  "tokenRequestorSignaturePath": "/assets/signatures/example.png",
+  "tokenRequestorDsAgreementPath": "/docs/agreement.pdf",
+  "kekId": "kek-001",
+  "kekValue": "encrypted-kek-value",
+  "dekId": "dek-001",
+  "dekValue": "encrypted-dek-value",
+  "rsaKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...",
+  "rsaAlgorithm": "RSA1_5"
+}
+[2025-10-11T22:55:39.770Z] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
+[2025-10-11T22:55:39.770Z] INFO: Batch job completed
+
+[2025-10-11T22:55:55.835Z] INFO: Batch job started
+[2025-10-11T22:55:55.836Z] INFO: Found 0 files in 'in' folder
+[2025-10-11T22:55:55.843Z] INFO: Processing started
+[2025-10-11T22:55:55.844Z] INFO: Batch job completed

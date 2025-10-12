@@ -1,0 +1,55 @@
+{
+    "issuerID": "AEP_AAFAQ1",
+    "issuerName": "AAFAQ Finance",
+    "issuerInterfaceType": "ws",
+    "IssuerDomain": "https://example.com",
+    "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+    "ProvisioningEndPoint": "/provisioning",
+    "LCMEventNotificationEndPoint": "/lcmnotification",
+    "VerifyOTPEndPoint": "/verifyotp",
+    "SendSelectedValidationMethodEndPoint": "/sendotp",
+    "HealthCheckEndPoint": "/healthcheck",
+    "IssuerPublicKey": "ABC",
+    "issuerBIN": [
+        {
+            "BIN": "66900100",
+            "cardProductID": "JAYWAN_STANDARD_DEBIT",
+            "tokenBIN": [
+                {
+                    "BIN": "56900500"
+                }
+            ],
+            "routeID": "TPSE001",
+            "allowedTR": "ALL",
+            "issuerInterfaceType": "ws",
+            "IssuerDomain": "https://example.com",
+            "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+            "ProvisioningEndPoint": "/provisioning",
+            "LCMEventNotificationEndPoint": "/lcmnotification",
+            "VerifyOTPEndPoint": "/verifyotp",
+            "SendSelectedValidationMethodEndPoint": "/sendotp",
+            "HealthCheckEndPoint": "/healthcheck",
+            "IssuerPublicKey": "ABC"
+        },
+        {
+            "BIN": "66900100",
+            "cardProductID": "JAYWAN_STANDARD_DEBIT",
+            "tokenBIN": [
+                {
+                    "BIN": "56900500"
+                }
+            ],
+            "routeID": "TPSE001",
+            "allowedTR": "ALL",
+            "issuerInterfaceType": "ws",
+            "IssuerDomain": "https://example.com",
+            "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+            "ProvisioningEndPoint": "/provisioning",
+            "LCMEventNotificationEndPoint": "/lcmnotification",
+            "VerifyOTPEndPoint": "/verifyotp",
+            "SendSelectedValidationMethodEndPoint": "/sendotp",
+            "HealthCheckEndPoint": "/healthcheck",
+            "IssuerPublicKey": "ABC"
+        }
+    ]
+}

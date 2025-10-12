@@ -1,0 +1,7 @@
+dotenv
+node_modules
+dist
+dev.sqllite
+temp
+yarn.lock
+package-lock.json

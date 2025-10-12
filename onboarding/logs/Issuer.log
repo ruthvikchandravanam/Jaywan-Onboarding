@@ -1,0 +1,500 @@
+
+[2025-10-11T20:28:13.877Z] INFO: Batch job started
+[2025-10-11T20:28:13.877Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T20:28:13.877Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T20:28:13.878Z] INFO: Processing started
+[2025-10-11T20:28:13.878Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T20:28:13.878Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-11T20:28:13.879Z] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
+[2025-10-11T20:28:13.879Z] INFO: Batch job completed
+
+[2025-10-11T21:40:28.602Z] INFO: Batch job started
+[2025-10-11T21:40:28.602Z] INFO: Found 0 files in 'in' folder
+[2025-10-11T21:40:28.604Z] INFO: Processing started
+[2025-10-11T21:40:28.604Z] INFO: Batch job completed
+
+[2025-10-11T22:47:09.333Z] INFO: Batch job started
+[2025-10-11T22:47:09.333Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:47:09.333Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:47:09.335Z] INFO: Processing started
+[2025-10-11T22:47:09.335Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:47:09.336Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-11T22:47:09.356Z] ERROR: Error: DataTypeNotSupportedError: Data type "timestamp" in "IssuerORM.updatedAt" is not supported by "sqlite" database.
+[2025-10-11T22:47:09.356Z] INFO: Batch job completed
+
+[2025-10-11T22:49:40.011Z] INFO: Batch job started
+[2025-10-11T22:49:40.012Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:49:40.012Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:49:40.014Z] INFO: Processing started
+[2025-10-11T22:49:40.014Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:49:40.014Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-11T22:49:40.043Z] ERROR: Error: DataTypeNotSupportedError: Data type "mediumtext" in "IssuerORM.metaData" is not supported by "sqlite" database.
+[2025-10-11T22:49:40.043Z] INFO: Batch job completed
+
+[2025-10-11T22:50:26.238Z] INFO: Batch job started
+[2025-10-11T22:50:26.238Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:50:26.238Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:50:26.239Z] INFO: Processing started
+[2025-10-11T22:50:26.239Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:50:26.239Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-11T22:50:26.252Z] ERROR: Error: DataTypeNotSupportedError: Data type "char" in "IssuerBinORM.isReusable" is not supported by "sqlite" database.
+[2025-10-11T22:50:26.252Z] INFO: Batch job completed
+
+[2025-10-11T22:51:11.137Z] INFO: Batch job started
+[2025-10-11T22:51:11.137Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:51:11.137Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:51:11.138Z] INFO: Processing started
+[2025-10-11T22:51:11.138Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:51:11.139Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-11T22:51:11.157Z] ERROR: Error: TypeORMError: Column maxOtpRetryCount of Entity IssuerBinORM does not support length property.
+[2025-10-11T22:51:11.157Z] INFO: Batch job completed
+
+[2025-10-11T22:51:53.478Z] INFO: Batch job started
+[2025-10-11T22:51:53.479Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:51:53.479Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:51:53.480Z] INFO: Processing started
+[2025-10-11T22:51:53.480Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:51:53.480Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-11T22:51:53.506Z] ERROR: Error: CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+[2025-10-11T22:51:53.507Z] INFO: Batch job completed
+
+[2025-10-11T22:53:11.513Z] INFO: Batch job started
+[2025-10-11T22:53:11.513Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:53:11.513Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:53:11.515Z] INFO: Processing started
+[2025-10-11T22:53:11.515Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:53:11.515Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-11T22:53:11.537Z] ERROR: Error: CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+[2025-10-11T22:53:11.537Z] INFO: Batch job completed
+
+[2025-10-11T22:55:55.842Z] INFO: Batch job started
+[2025-10-11T22:55:55.842Z] INFO: Found 1 files in 'in' folder
+[2025-10-11T22:55:55.843Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:55:55.843Z] INFO: Processing started
+[2025-10-11T22:55:55.843Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-11T22:55:55.843Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-11T22:55:55.918Z] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
+[2025-10-11T22:55:55.919Z] INFO: Batch job completed

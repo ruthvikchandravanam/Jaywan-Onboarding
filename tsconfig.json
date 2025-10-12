@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ES2020", // Or ES2022 for newer features
+        "module": "ESNext", // Use ES Module system
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "outDir": "dist",
+        "types": [
+            "node"
+        ],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "src"
+    ],
+}
