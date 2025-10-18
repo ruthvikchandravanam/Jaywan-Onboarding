@@ -11,8 +11,8 @@ interface TokenRequestorsDetailsInterface {
     updatedBy?: string; // varchar(45)
     updatedDate?: Date; // datetime
 
-    createdAt?: Date; // datetime, DEFAULT CURRENT_TIMESTAMP
-    updatedAt?: Date; // datetime, DEFAULT CURRENT_TIMESTAMP
+    createdAt?: Date; // datetime, DEFAULT CURRENT_TIMESTAMP(6)
+    updatedAt?: Date; // datetime, DEFAULT CURRENT_TIMESTAMP(6)
 
     hashKey?: string; // varchar(256)
     requestorType?: string; // varchar(45)

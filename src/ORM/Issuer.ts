@@ -1,4 +1,4 @@
-import { Entity, PrimaryColumn, Column } from 'typeorm';
+import { Entity, PrimaryColumn, Column, CreateDateColumn, UpdateDateColumn } from 'typeorm';
 
 @Entity('issuer')
 export class IssuerORM {
@@ -38,28 +38,26 @@ export class IssuerORM {
     @Column({ type: 'varchar', length: 45, nullable: true })
     lastUpdatedBy?: string;
 
-    // @Column({ type: 'timestamp', nullable: true })
-    // @Column({ type: 'datetime', nullable: true })
-    // updatedAt?: Date;
+    @UpdateDateColumn({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP(6)', onUpdate: 'CURRENT_TIMESTAMP(6)' })
+    updatedAt?: Date;
 
-    @Column({ type: 'varchar', length: 2100, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     issuerPublicKey?: string;
 
-    // @Column({ type: 'mediumtext', length: 2400, nullable: true })
-    @Column({ type: 'varchar', length: 2400, nullable: true })
+    @Column({ type: 'mediumtext', nullable: true })
     metaData?: string;
 
     @Column({ type: 'varchar', length: 45, nullable: true })
     clientCertNumber?: string;
 
-    @Column({ type: 'varchar', length: 2100, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     allowedTr?: string;
 
-    @Column({ type: 'varchar', length: 45, nullable: true })
+    @Column({ type: 'varchar', length: 32, nullable: true })
     imkKey?: string;
 
-    @Column({ type: 'varchar', length: 10, nullable: true })
-    isoFlag?: string;
+    @Column({ type: 'varchar', length: 10, nullable: true, default: 'N' })
+    IsoFlag?: string;
 
     @Column({ type: 'varchar', length: 10, nullable: true })
     issuerInterfaceType?: string;
@@ -82,20 +80,19 @@ export class IssuerORM {
     @Column({ type: 'varchar', length: 45, nullable: true })
     issuer_name?: string;
 
-    @Column({ type: 'varchar', length: 2100, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     issuer_public_key?: string;
 
     @Column({ type: 'varchar', length: 45, nullable: true })
     last_updated_by?: string;
 
     @Column({ type: 'mediumtext', nullable: true })
-    @Column({ type: 'varchar', nullable: true })
     meta_data?: string;
 
-    @Column({ type: 'varchar', length: 2400, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     npci_private_key?: string;
 
-    @Column({ type: 'varchar', length: 2100, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     npci_public_key?: string;
 
     @Column({ type: 'varchar', length: 24, nullable: true })
@@ -110,11 +107,10 @@ export class IssuerORM {
     @Column({ type: 'varchar', length: 7, nullable: true })
     shortCode?: string;
 
-    // @Column({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP', nullable: true })
-    // @Column({ type: 'datetime', default: () => 'CURRENT_`TIMESTAMP`', nullable: true })
-    // createdAt?: Date;
+    @CreateDateColumn({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP(6)' })
+    createdAt?: Date;
 
-    @Column({ type: 'varchar', length: 2, nullable: true, default: () => 1 })
+    @Column({ type: 'varchar', length: 2, nullable: true })
     partitionNo?: string;
 
     @Column({ type: 'varchar', length: 10, nullable: true })
@@ -123,13 +119,13 @@ export class IssuerORM {
     @Column({ type: 'varchar', length: 255, nullable: true })
     issuerTspId?: string;
 
-    @Column({ type: 'varchar', length: 2, nullable: true, default: () => 1 })
-    isOTPOnBehalfToIssuer?: number;
+    @Column({ type: 'varchar', length: 2, nullable: true, default: '1' })
+    isOTPOnBehalfOfIssuer?: string;
 
-    @Column({ type: 'varchar', length: 2100, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     ntsPublicKey?: string;
 
-    @Column({ type: 'varchar', length: 2400, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     ntsPrivateKey?: string;
 
     @Column({ type: 'int', nullable: true })
@@ -154,19 +150,19 @@ export class IssuerORM {
     param7?: string;
 
     @Column({ type: 'varchar', length: 1, nullable: true, default: 'N' })
-    issuerManageTokensWriteEnabled?: string;
+    portalManageTokensWriteEnabled?: string;
 }
 
 @Entity('issuerbin')
 export class IssuerBinORM {
-    @PrimaryColumn({ type: 'varchar', length: 128 })
+    @PrimaryColumn({ type: 'varchar', length: 45 })
     bin!: string;
 
-    @Column({ type: 'varchar', length: 45, nullable: true })
-    issuerID?: string;
+    @Column({ type: 'varchar', length: 45, nullable: false })
+    issuerID!: string;
 
     @Column({ type: 'varchar', length: 45, nullable: true })
-    oldIssuerBin?: string;
+    OldIssuerID?: string;
 
     @Column({ type: 'varchar', length: 128, nullable: true })
     iasDomain?: string;
@@ -192,10 +188,10 @@ export class IssuerBinORM {
     @Column({ type: 'varchar', length: 128, nullable: true })
     param7?: string;
 
-    @Column({ type: 'varchar', length: 128, nullable: true })
+    @Column({ type: 'varchar', length: 264, nullable: true })
     param8?: string;
 
-    @Column({ type: 'varchar', length: 128, nullable: true })
+    @Column({ type: 'varchar', length: 264, nullable: true })
     param9?: string;
 
     @Column({ type: 'int', nullable: true })
@@ -205,32 +201,31 @@ export class IssuerBinORM {
     tokenLen?: number;
 
     @Column({ type: 'int', nullable: false, default: 0 })
-    maxAllowedTokens?: number;
+    maxAllowedTokens!: number;
 
     @Column({ type: 'varchar', length: 45, nullable: true })
-    mixTokenBinRange?: string;
+    minTokenBinRange?: string;
 
     @Column({ type: 'varchar', length: 45, nullable: true })
-    mixTokenBinRangeNew?: string;
+    maxTokenBinRange?: string;
 
     @Column({ type: 'varchar', length: 6, nullable: true })
     LastRunningNumber?: string;
 
-    @Column({ type: 'varchar', length: 1, nullable: true })
+    @Column({ type: 'char', length: 1, nullable: true })
     Luhn?: string;
 
     @Column({ type: 'varchar', length: 6, nullable: true })
     validity?: string;
 
-    @Column({ type: 'varchar', length: 5, nullable: true, default: 2 })
+    @Column({ type: 'varchar', length: 5, nullable: true, default: '2' })
     todValidity?: string;
 
-    // @Column({ type: 'char', length: 1, nullable: true })
-    @Column({ type: 'varchar', length: 1, nullable: true })
+    @Column({ type: 'char', length: 1, nullable: true })
     isReusable?: string;
 
-    @Column({ type: 'varchar', length: 3000, nullable: true })
-    CardMetaData?: string;
+    @Column({ type: 'longtext', nullable: true })
+    cardMetaData?: string;
 
     @Column({ type: 'varchar', length: 1, nullable: true })
     isOTPOnBehalfOfIssuer?: string;
@@ -250,7 +245,7 @@ export class IssuerBinORM {
     @Column({ type: 'tinyint', nullable: true, default: 0 })
     configuredOtpExpiryMinutes?: number;
 
-    @Column({ type: 'tinyint', nullable: true, default: 0 })
+    @Column({ type: 'tinyint', nullable: true })
     maxResentOTPCount?: number;
 
     @Column({ type: 'varchar', length: 45, nullable: true })
@@ -265,37 +260,34 @@ export class IssuerBinORM {
     @Column({ type: 'varchar', length: 45, nullable: true })
     lastUpdatedBy?: string;
 
-    // @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP', nullable: true })
-    // @Column({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP', nullable: true })
-    // createdAt?: Date;
+    @CreateDateColumn({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP(6)' })
+    createdAt?: Date;
 
-    // @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP', nullable: true })
-    // @Column({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP', nullable: true })
-    // lastUpdatedAt?: Date;
+    @UpdateDateColumn({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP(6)', onUpdate: 'CURRENT_TIMESTAMP(6)' })
+    updatedAt?: Date;
 
-    // @Column({ type: 'char', length: 1, nullable: true, default: 1 })
-    @Column({ type: 'varchar', length: 1, nullable: true, default: 1 })
-    isActive?: string;
+    @Column({ type: 'int', nullable: false, default: 1 })
+    isActive!: number;
 
     @Column({ type: 'varchar', length: 45, nullable: true })
     issuerCertValidity?: string;
 
-    @Column({ type: 'varchar', length: 1000, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     issuerPublicKey?: string;
 
-    @Column({ type: 'varchar', length: 1000, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     issuerPublicKeyCertificate?: string;
 
-    @Column({ type: 'varchar', length: 1000, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     issuerPublicKeyRemainder?: string;
 
-    @Column({ type: 'varchar', length: 1000, nullable: true })
+    @Column({ type: 'varchar', length: 10, nullable: true })
     issuerPublicKeyExponent?: string;
 
-    @Column({ type: 'varchar', length: 1000, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     encIssuerPrivateKey?: string;
 
-    @Column({ type: 'varchar', length: 1000, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     issuerMasterKey?: string;
 
     @Column({ type: 'varchar', length: 128, nullable: true })
@@ -320,37 +312,36 @@ export class IssuerBinORM {
     issuerInterfaceType?: string;
 
     @Column({ type: 'varchar', length: 20, nullable: true, default: 'RSA1_5' })
-    rsaAlgorithmType?: string;
-
-    // If you want to include the extended rsaAlgorithmTypeNew* fields, I can generate those too.
+    rsaAlgorithm?: string;
 }
+
 @Entity('tokenbinrange')
 export class TokenBinRangeORM {
     @PrimaryColumn({ type: 'varchar', length: 16 })
     issuerID!: string;
 
-    @PrimaryColumn({ type: 'varchar', length: 7 })
+    @PrimaryColumn({ type: 'varchar', length: 10 })
     bin!: string;
 
-    @Column({ type: 'varchar', length: 7, nullable: true })
-    tokenBin?: string;
+    @PrimaryColumn({ type: 'varchar', length: 10 })
+    tokenBin!: string;
 
     @Column({ type: 'varchar', length: 8, nullable: true })
     status?: string;
 
-    @Column({ type: 'varchar', length: 500, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     issuerPublicKey?: string;
 
-    @Column({ type: 'varchar', length: 500, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     issuerPublicKeyCertificate?: string;
 
-    @Column({ type: 'varchar', length: 500, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     issuerPublicKeyRemainder?: string;
 
-    @Column({ type: 'varchar', length: 500, nullable: true })
-    encIssuerPublicKey?: string;
+    @Column({ type: 'longtext', nullable: true })
+    issuerPublicKeyExponent?: string;
 
-    @Column({ type: 'varchar', length: 500, nullable: true })
+    @Column({ type: 'longtext', nullable: true })
     encIssuerPrivateKey?: string;
 }
 
@@ -371,13 +362,13 @@ export class TokenBinSubrangeORM {
     @PrimaryColumn({ type: 'smallint' })
     partitionNo!: number;
 
-    @Column({ type: 'int' })
+    @Column({ type: 'int', nullable: false })
     minSeqNo!: number;
 
-    @Column({ type: 'int' })
+    @Column({ type: 'int', nullable: false })
     maxSeqNo!: number;
 
-    @Column({ type: 'int' })
+    @Column({ type: 'int', nullable: false })
     currSeqNo!: number;
 
     @Column({ type: 'int', nullable: true })

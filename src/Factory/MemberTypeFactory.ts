@@ -6,23 +6,59 @@ import { TokenRequestorDetailsORM } from '../ORM/TR.js';
 import { IssuerORM, IssuerBinORM, TokenBinRangeORM, TokenBinSubrangeORM } from '../ORM/Issuer.js';
 import { IssuerFileInterface } from '../FileInterface/Issuer.js';
 
+
+async function bootstrap() {
+    try {
+        await AppDataSource.initialize();
+        // console.log('Data Source has been initialized!');
+
+        // Now you can safely use repositories or query runners
+        const issuerRepo = AppDataSource.getRepository(IssuerORM);
+        const allIssuers = await issuerRepo.find();
+        // console.log(allIssuers);
+
+    } catch (error) {
+        // console.error('Error during Data Source initialization', error);
+    }
+}
+
+async function shutdownDataSource() {
+    if (AppDataSource.isInitialized) {
+        await AppDataSource.destroy();
+        console.log('Data Source connection closed.');
+    }
+}
+
 interface MemberHandler {
     process(fileContentObj: any): Promise<void>;
 }
 class TokenRequestorHandler implements MemberHandler {
     async process(fileContentObj: any) {
-        const TRDetails: TokenRequestorsDetailsInterface = fileContentObj as TokenRequestorsDetailsInterface;
+        await bootstrap();
+        const TRContent: TokenRequestorsDetailsInterface = fileContentObj as TokenRequestorsDetailsInterface;
 
-        await AppDataSource.initialize();
-        const repo = AppDataSource.getRepository(TokenRequestorDetailsORM);
-        const details = repo.create(TRDetails);
-        await repo.save(details);
+        const TRRepo = AppDataSource.getRepository(TokenRequestorDetailsORM);
+        const TRRepoDetails: TokenRequestorDetailsORM = {
+            name: 'TRContent.tokenRequestorName',
+            tokenRequestorId: '1121212',
+            presentationModesSupport: 'asd',
+            isIssuerWallet: 'true',
+            requestorType: 'asd',
+            allowedForOnfile: 'qwe'
+        };
+
+        await TRRepo.save(TRRepo.create(TRRepoDetails));
+        // console.log('TRDetails saved successfully!');
+
+        await shutdownDataSource();
     }
 }
 
 class IssuerHandler implements MemberHandler {
     async process(fileContentObj: any) {
-        await AppDataSource.initialize();
+        await bootstrap();
+        // console.log(AppDataSource.entityMetadatas.map(e => e.name));
+
         const issuerContent: IssuerFileInterface = fileContentObj as IssuerFileInterface;
 
         // Issuer Table
@@ -54,11 +90,12 @@ class IssuerHandler implements MemberHandler {
                 param5: iBIN.SendSelectedValidationMethodEndPoint,
                 param6: iBIN.HealthCheckEndPoint,
                 validity: "3",
-                isActive: "1",
+                isActive: 1,
+                maxAllowedTokens: 10,
                 issuerInterfaceType: iBIN.issuerInterfaceType,
                 issuerPublicKey: iBIN.IssuerPublicKey,
                 cardProductId: iBIN.cardProductID,
-                
+
             };
             await issuerBINRepo.save(issuerBINRepo.create(issuerBINRepoDetails));
 
@@ -132,6 +169,8 @@ class IssuerHandler implements MemberHandler {
                 await tokenBINSubRangeRepo.save(entities);
             }
         }
+        await shutdownDataSource();
+
     }
 }
 export class MemberTypeFactory {

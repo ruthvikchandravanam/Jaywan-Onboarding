@@ -1,2 +1,3 @@
 # Jaywan-Onboarding
-# Jaywan-Onboarding
+
+mysql -u root -p

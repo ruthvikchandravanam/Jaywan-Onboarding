@@ -1,69 +1,10 @@
 
-[2025-10-11T20:28:13.877Z] INFO: Batch job started
-[2025-10-11T20:28:13.877Z] INFO: Found 1 files in 'in' folder
-[2025-10-11T20:28:13.877Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T20:28:13.878Z] INFO: Processing started
-[2025-10-11T20:28:13.878Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T20:28:13.878Z] INFO: {
-  "issuerID": "AEP_AAFAQ1",
-  "issuerName": "AAFAQ Finance",
-  "issuerBIN": [
-    {
-      "BIN": "66900100",
-      "cardProductID": "JAYWAN_STANDARD_DEBIT",
-      "tokenBIN": [
-        {
-          "BIN": "56900500"
-        }
-      ],
-      "routeID": "TPSE001",
-      "allowedTR": "ALL",
-      "issuerInterfaceType": "ws",
-      "IssuerDomain": "https://example.com",
-      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
-      "ProvisioningEndPoint": "/provisioning",
-      "LCMEventNotificationEndPoint": "/lcmnotification",
-      "VerifyOTPEndPoint": "/verifyotp",
-      "SendSelectedValidationMethodEndPoint": "/sendotp",
-      "HealthCheckEndPoint": "/healthcheck",
-      "IssuerPublicKey": "ABC"
-    },
-    {
-      "BIN": "66900100",
-      "cardProductID": "JAYWAN_STANDARD_DEBIT",
-      "tokenBIN": [
-        {
-          "BIN": "56900500"
-        }
-      ],
-      "routeID": "TPSE001",
-      "allowedTR": "ALL",
-      "issuerInterfaceType": "ws",
-      "IssuerDomain": "https://example.com",
-      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
-      "ProvisioningEndPoint": "/provisioning",
-      "LCMEventNotificationEndPoint": "/lcmnotification",
-      "VerifyOTPEndPoint": "/verifyotp",
-      "SendSelectedValidationMethodEndPoint": "/sendotp",
-      "HealthCheckEndPoint": "/healthcheck",
-      "IssuerPublicKey": "ABC"
-    }
-  ]
-}
-[2025-10-11T20:28:13.879Z] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
-[2025-10-11T20:28:13.879Z] INFO: Batch job completed
-
-[2025-10-11T21:40:28.602Z] INFO: Batch job started
-[2025-10-11T21:40:28.602Z] INFO: Found 0 files in 'in' folder
-[2025-10-11T21:40:28.604Z] INFO: Processing started
-[2025-10-11T21:40:28.604Z] INFO: Batch job completed
-
-[2025-10-11T22:47:09.333Z] INFO: Batch job started
-[2025-10-11T22:47:09.333Z] INFO: Found 1 files in 'in' folder
-[2025-10-11T22:47:09.333Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:47:09.335Z] INFO: Processing started
-[2025-10-11T22:47:09.335Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:47:09.336Z] INFO: {
+[2025-10-18T19:05:41.607Z] INFO: Batch job started
+[2025-10-18T19:05:41.607Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:05:41.607Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:05:41.607Z] INFO: Processing started
+[2025-10-18T19:05:41.607Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:05:41.607Z] INFO: {
   "issuerID": "AEP_AAFAQ1",
   "issuerName": "AAFAQ Finance",
   "issuerInterfaceType": "ws",
@@ -118,15 +59,20 @@
     }
   ]
 }
-[2025-10-11T22:47:09.356Z] ERROR: Error: DataTypeNotSupportedError: Data type "timestamp" in "IssuerORM.updatedAt" is not supported by "sqlite" database.
-[2025-10-11T22:47:09.356Z] INFO: Batch job completed
+[2025-10-18T19:05:41.666Z] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
+[2025-10-18T19:05:41.666Z] INFO: Batch job completed
 
-[2025-10-11T22:49:40.011Z] INFO: Batch job started
-[2025-10-11T22:49:40.012Z] INFO: Found 1 files in 'in' folder
-[2025-10-11T22:49:40.012Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:49:40.014Z] INFO: Processing started
-[2025-10-11T22:49:40.014Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:49:40.014Z] INFO: {
+[2025-10-18T19:10:28.839Z] INFO: Batch job started
+[2025-10-18T19:10:28.840Z] INFO: Found 0 files in 'in' folder
+[2025-10-18T19:10:28.840Z] INFO: Processing started
+[2025-10-18T19:10:28.840Z] INFO: Batch job completed
+
+[2025-10-18T19:10:51.103Z] INFO: Batch job started
+[2025-10-18T19:10:51.103Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:10:51.103Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:10:51.108Z] INFO: Processing started
+[2025-10-18T19:10:51.108Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:10:51.109Z] INFO: {
   "issuerID": "AEP_AAFAQ1",
   "issuerName": "AAFAQ Finance",
   "issuerInterfaceType": "ws",
@@ -181,15 +127,15 @@
     }
   ]
 }
-[2025-10-11T22:49:40.043Z] ERROR: Error: DataTypeNotSupportedError: Data type "mediumtext" in "IssuerORM.metaData" is not supported by "sqlite" database.
-[2025-10-11T22:49:40.043Z] INFO: Batch job completed
+[2025-10-18T19:10:51.224Z] ERROR: Error: CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
+[2025-10-18T19:10:51.224Z] INFO: Batch job completed
 
-[2025-10-11T22:50:26.238Z] INFO: Batch job started
-[2025-10-11T22:50:26.238Z] INFO: Found 1 files in 'in' folder
-[2025-10-11T22:50:26.238Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:50:26.239Z] INFO: Processing started
-[2025-10-11T22:50:26.239Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:50:26.239Z] INFO: {
+[2025-10-18T19:15:25.679Z] INFO: Batch job started
+[2025-10-18T19:15:25.680Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:15:25.680Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:15:25.686Z] INFO: Processing started
+[2025-10-18T19:15:25.686Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:15:25.687Z] INFO: {
   "issuerID": "AEP_AAFAQ1",
   "issuerName": "AAFAQ Finance",
   "issuerInterfaceType": "ws",
@@ -244,15 +190,15 @@
     }
   ]
 }
-[2025-10-11T22:50:26.252Z] ERROR: Error: DataTypeNotSupportedError: Data type "char" in "IssuerBinORM.isReusable" is not supported by "sqlite" database.
-[2025-10-11T22:50:26.252Z] INFO: Batch job completed
+[2025-10-18T19:15:25.688Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:15:25.688Z] INFO: Batch job completed
 
-[2025-10-11T22:51:11.137Z] INFO: Batch job started
-[2025-10-11T22:51:11.137Z] INFO: Found 1 files in 'in' folder
-[2025-10-11T22:51:11.137Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:51:11.138Z] INFO: Processing started
-[2025-10-11T22:51:11.138Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:51:11.139Z] INFO: {
+[2025-10-18T19:17:04.915Z] INFO: Batch job started
+[2025-10-18T19:17:04.915Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:17:04.915Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:17:04.921Z] INFO: Processing started
+[2025-10-18T19:17:04.921Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:17:04.921Z] INFO: {
   "issuerID": "AEP_AAFAQ1",
   "issuerName": "AAFAQ Finance",
   "issuerInterfaceType": "ws",
@@ -307,15 +253,15 @@
     }
   ]
 }
-[2025-10-11T22:51:11.157Z] ERROR: Error: TypeORMError: Column maxOtpRetryCount of Entity IssuerBinORM does not support length property.
-[2025-10-11T22:51:11.157Z] INFO: Batch job completed
+[2025-10-18T19:17:04.922Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:17:04.922Z] INFO: Batch job completed
 
-[2025-10-11T22:51:53.478Z] INFO: Batch job started
-[2025-10-11T22:51:53.479Z] INFO: Found 1 files in 'in' folder
-[2025-10-11T22:51:53.479Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:51:53.480Z] INFO: Processing started
-[2025-10-11T22:51:53.480Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:51:53.480Z] INFO: {
+[2025-10-18T19:17:13.281Z] INFO: Batch job started
+[2025-10-18T19:17:13.281Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:17:13.281Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:17:13.286Z] INFO: Processing started
+[2025-10-18T19:17:13.287Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:17:13.287Z] INFO: {
   "issuerID": "AEP_AAFAQ1",
   "issuerName": "AAFAQ Finance",
   "issuerInterfaceType": "ws",
@@ -370,15 +316,15 @@
     }
   ]
 }
-[2025-10-11T22:51:53.506Z] ERROR: Error: CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
-[2025-10-11T22:51:53.507Z] INFO: Batch job completed
+[2025-10-18T19:17:13.288Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:17:13.288Z] INFO: Batch job completed
 
-[2025-10-11T22:53:11.513Z] INFO: Batch job started
-[2025-10-11T22:53:11.513Z] INFO: Found 1 files in 'in' folder
-[2025-10-11T22:53:11.513Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:53:11.515Z] INFO: Processing started
-[2025-10-11T22:53:11.515Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:53:11.515Z] INFO: {
+[2025-10-18T19:19:16.938Z] INFO: Batch job started
+[2025-10-18T19:19:16.938Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:19:16.938Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:19:16.945Z] INFO: Processing started
+[2025-10-18T19:19:16.945Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:19:16.945Z] INFO: {
   "issuerID": "AEP_AAFAQ1",
   "issuerName": "AAFAQ Finance",
   "issuerInterfaceType": "ws",
@@ -433,15 +379,15 @@
     }
   ]
 }
-[2025-10-11T22:53:11.537Z] ERROR: Error: CannotExecuteNotConnectedError: Cannot execute operation on "default" connection because connection is not yet established.
-[2025-10-11T22:53:11.537Z] INFO: Batch job completed
+[2025-10-18T19:19:16.947Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:19:16.947Z] INFO: Batch job completed
 
-[2025-10-11T22:55:55.842Z] INFO: Batch job started
-[2025-10-11T22:55:55.842Z] INFO: Found 1 files in 'in' folder
-[2025-10-11T22:55:55.843Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:55:55.843Z] INFO: Processing started
-[2025-10-11T22:55:55.843Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
-[2025-10-11T22:55:55.843Z] INFO: {
+[2025-10-18T19:33:30.703Z] INFO: Batch job started
+[2025-10-18T19:33:30.703Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:33:30.703Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:33:30.704Z] INFO: Processing started
+[2025-10-18T19:33:30.704Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:33:30.704Z] INFO: {
   "issuerID": "AEP_AAFAQ1",
   "issuerName": "AAFAQ Finance",
   "issuerInterfaceType": "ws",
@@ -496,5 +442,834 @@
     }
   ]
 }
-[2025-10-11T22:55:55.918Z] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
-[2025-10-11T22:55:55.919Z] INFO: Batch job completed
+[2025-10-18T19:33:30.712Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:33:30.712Z] INFO: Batch job completed
+
+[2025-10-18T19:35:36.169Z] INFO: Batch job started
+[2025-10-18T19:35:36.169Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:35:36.169Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:35:36.170Z] INFO: Processing started
+[2025-10-18T19:35:36.170Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:35:36.170Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T19:35:36.178Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:35:36.178Z] INFO: Batch job completed
+
+[2025-10-18T19:36:18.597Z] INFO: Batch job started
+[2025-10-18T19:36:18.597Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:36:18.597Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:36:18.597Z] INFO: Processing started
+[2025-10-18T19:36:18.597Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:36:18.597Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T19:36:18.605Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:36:18.605Z] INFO: Batch job completed
+
+[2025-10-18T19:37:13.703Z] INFO: Batch job started
+[2025-10-18T19:37:13.703Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:37:13.703Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:37:13.704Z] INFO: Processing started
+[2025-10-18T19:37:13.704Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:37:13.704Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T19:37:13.710Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:37:13.710Z] INFO: Batch job completed
+
+[2025-10-18T19:41:40.644Z] INFO: Batch job started
+[2025-10-18T19:41:40.644Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:41:40.644Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:41:40.644Z] INFO: Processing started
+[2025-10-18T19:41:40.644Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:41:40.645Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T19:41:40.652Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:41:40.653Z] INFO: Batch job completed
+
+[2025-10-18T19:51:27.891Z] INFO: Batch job started
+[2025-10-18T19:51:27.891Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:51:27.891Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:51:27.892Z] INFO: Processing started
+[2025-10-18T19:51:27.892Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:51:27.892Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T19:51:27.899Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:51:27.900Z] INFO: Batch job completed
+
+[2025-10-18T19:54:30.341Z] INFO: Batch job started
+[2025-10-18T19:54:30.341Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:54:30.341Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:54:30.342Z] INFO: Processing started
+[2025-10-18T19:54:30.342Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:54:30.342Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T19:54:30.350Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:54:30.350Z] INFO: Batch job completed
+
+[2025-10-18T19:55:26.333Z] INFO: Batch job started
+[2025-10-18T19:55:26.334Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:55:26.334Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:55:26.334Z] INFO: Processing started
+[2025-10-18T19:55:26.334Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:55:26.334Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T19:55:26.342Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:55:26.342Z] INFO: Batch job completed
+
+[2025-10-18T19:56:55.705Z] INFO: Batch job started
+[2025-10-18T19:56:55.705Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:56:55.705Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:56:55.706Z] INFO: Processing started
+[2025-10-18T19:56:55.706Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:56:55.706Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T19:56:55.712Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:56:55.712Z] INFO: Batch job completed
+
+[2025-10-18T19:59:45.041Z] INFO: Batch job started
+[2025-10-18T19:59:45.041Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T19:59:45.041Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:59:45.042Z] INFO: Processing started
+[2025-10-18T19:59:45.042Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T19:59:45.042Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T19:59:45.049Z] ERROR: Error: EntityMetadataNotFoundError: No metadata for "IssuerORM" was found.
+[2025-10-18T19:59:45.049Z] INFO: Batch job completed
+
+[2025-10-18T20:06:01.277Z] INFO: Batch job started
+[2025-10-18T20:06:01.277Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T20:06:01.277Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T20:06:01.278Z] INFO: Processing started
+[2025-10-18T20:06:01.278Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T20:06:01.278Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T20:06:01.367Z] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
+[2025-10-18T20:06:01.367Z] INFO: Batch job completed
+
+[2025-10-18T20:15:28.261Z] INFO: Batch job started
+[2025-10-18T20:15:28.261Z] INFO: Found 0 files in 'in' folder
+[2025-10-18T20:15:28.261Z] INFO: Processing started
+[2025-10-18T20:15:28.261Z] INFO: Batch job completed
+
+[2025-10-18T20:15:43.806Z] INFO: Batch job started
+[2025-10-18T20:15:43.806Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T20:15:43.806Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T20:15:43.812Z] INFO: Processing started
+[2025-10-18T20:15:43.812Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T20:15:43.812Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T20:15:43.886Z] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
+[2025-10-18T20:15:43.886Z] INFO: Batch job completed
+
+[2025-10-18T20:18:30.977Z] INFO: Batch job started
+[2025-10-18T20:18:30.978Z] INFO: Found 0 files in 'in' folder
+[2025-10-18T20:18:30.978Z] INFO: Processing started
+[2025-10-18T20:18:30.978Z] INFO: Batch job completed
+
+[2025-10-18T20:18:44.527Z] INFO: Batch job started
+[2025-10-18T20:18:44.527Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T20:18:44.528Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T20:18:44.533Z] INFO: Processing started
+[2025-10-18T20:18:44.533Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T20:18:44.533Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T20:18:44.583Z] ERROR: Error: TypeORMError: Connection is not established with mysql database
+[2025-10-18T20:18:44.583Z] INFO: Batch job completed
+
+[2025-10-18T20:21:01.486Z] INFO: Batch job started
+[2025-10-18T20:21:01.486Z] INFO: Found 1 files in 'in' folder
+[2025-10-18T20:21:01.486Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T20:21:01.487Z] INFO: Processing started
+[2025-10-18T20:21:01.487Z] INFO: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-18T20:21:01.487Z] INFO: {
+  "issuerID": "AEP_AAFAQ1",
+  "issuerName": "AAFAQ Finance",
+  "issuerInterfaceType": "ws",
+  "IssuerDomain": "https://example.com",
+  "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+  "ProvisioningEndPoint": "/provisioning",
+  "LCMEventNotificationEndPoint": "/lcmnotification",
+  "VerifyOTPEndPoint": "/verifyotp",
+  "SendSelectedValidationMethodEndPoint": "/sendotp",
+  "HealthCheckEndPoint": "/healthcheck",
+  "IssuerPublicKey": "ABC",
+  "issuerBIN": [
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    },
+    {
+      "BIN": "66900100",
+      "cardProductID": "JAYWAN_STANDARD_DEBIT",
+      "tokenBIN": [
+        {
+          "BIN": "56900500"
+        }
+      ],
+      "routeID": "TPSE001",
+      "allowedTR": "ALL",
+      "issuerInterfaceType": "ws",
+      "IssuerDomain": "https://example.com",
+      "checkCardEligibilityEndPoint": "/cardeligibilitycheck",
+      "ProvisioningEndPoint": "/provisioning",
+      "LCMEventNotificationEndPoint": "/lcmnotification",
+      "VerifyOTPEndPoint": "/verifyotp",
+      "SendSelectedValidationMethodEndPoint": "/sendotp",
+      "HealthCheckEndPoint": "/healthcheck",
+      "IssuerPublicKey": "ABC"
+    }
+  ]
+}
+[2025-10-18T20:21:01.534Z] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
+[2025-10-18T20:21:01.534Z] INFO: Batch job completed
