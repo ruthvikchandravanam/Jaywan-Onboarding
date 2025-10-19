@@ -8,3 +8,13 @@
 
 [2025-10-19T09:18:17.448Z] INFO: 📊 Summary: 1 processed, 0 moved to exception.
 [2025-10-19T09:18:17.448Z] INFO: 🏁 Job 'Issuer' completed.
+
+[2025-10-19 13:26:59] INFO: 🚀 Starting onboarding job: Issuer
+[2025-10-19 13:26:59] INFO: Found 1 file(s) for job 'Issuer'
+[2025-10-19 13:26:59] INFO: 📄 /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-19 13:26:59] INFO: 📄 Processing file: /home/ruthvikchandravanam/onboarding/onboarding/in/Issuer_AAFAQ.json
+[2025-10-19 13:26:59] INFO: Parsed file content: {"issuerID":"AEP_AAFAQ1","issuerName":"AAFAQ Finance","issuerInterfaceType":"ws","IssuerDomain":"https://example.com","checkCardEligibilityEndPoint":"/cardeligibilitycheck","ProvisioningEndPoint":"/provisioning","LCMEventNotificationEndPoint":"/lcmnotification","VerifyOTPEndPoint":"/verifyotp","SendSelectedValidationMethodEndPoint":"/sendotp","HealthCheckEndPoint":"/healthcheck","IssuerPublicKey":"ABC","issuerBIN":[{"BIN":"66900100","cardProductID":"JAYWAN_STANDARD_DEBIT","tokenBIN":[{"BIN":"56900500"}],"routeID":"TPSE001","allowedTR":"ALL","issuerInterfaceType":"ws","IssuerDomain":"https://example.com","checkCardEligibilityEndPoint":"/cardeligibilitycheck","ProvisioningEndPoint":"/provisioning","LCMEventNotificationEndPoint":"/lcmnotification","VerifyOTPEndPoint":"/verifyotp","SendSelectedValidationMethodEndPoint":"/sendotp","HealthCheckEndPoint":"/healthcheck","IssuerPublicKey":"ABC"},{"BIN":"66900100","cardProductID":"JAYWAN_STANDARD_DEBIT","tokenBIN":[{"BIN":"56900500"}],"routeID":"TPSE001","allowedTR":"ALL","issuerInterfaceType":"ws","IssuerDomain":"https://example.com","checkCardEligibilityEndPoint":"/cardeligibilitycheck","ProvisioningEndPoint":"/provisioning","LCMEventNotificationEndPoint":"/lcmnotification","VerifyOTPEndPoint":"/verifyotp","SendSelectedValidationMethodEndPoint":"/sendotp","HealthCheckEndPoint":"/healthcheck","IssuerPublicKey":"ABC"}]}
+[2025-10-19 13:26:59] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
+
+[2025-10-19 13:26:59] INFO: 📊 Summary: 1 processed, 0 moved to exception.
+[2025-10-19 13:26:59] INFO: 🏁 Job 'Issuer' completed.

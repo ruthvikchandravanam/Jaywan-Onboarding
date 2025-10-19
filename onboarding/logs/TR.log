@@ -8,3 +8,13 @@
 
 [2025-10-19T09:18:17.492Z] INFO: 📊 Summary: 1 processed, 0 moved to exception.
 [2025-10-19T09:18:17.492Z] INFO: 🏁 Job 'TR' completed.
+
+[2025-10-19 13:26:59] INFO: 🚀 Starting onboarding job: TR
+[2025-10-19 13:26:59] INFO: Found 1 file(s) for job 'TR'
+[2025-10-19 13:26:59] INFO: 📄 /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-19 13:26:59] INFO: 📄 Processing file: /home/ruthvikchandravanam/onboarding/onboarding/in/TRX001234567.json
+[2025-10-19 13:26:59] INFO: Parsed file content: {"tokenRequestorId":"TRX001234567","publicKey":"-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...\n-----END PUBLIC KEY-----","presentationModesSupport":"NFC,QR,InApp","keyId":"key-abc-123","isIssuerWallet":"Y","createdBy":"admin_user","createdDate":"2025-10-11T14:30:00Z","updatedBy":"admin_user","updatedDate":"2025-10-11T15:00:00Z","hashKey":"abc123hashkeyvalue","requestorType":"Bank","tokenServiceDomain":"payments.example.com","tokenRequestorName":"Example Bank","tokenRequestorLogoUrl":"https://example.com/logo.png","tokenRequestorSignatureUrl":"https://example.com/signature.png","tokenRequestorDsAgreementUrl":"https://example.com/agreement.pdf","tokenRequestorDsAgreementId":"AG12345","tokenRequestorDsAgreementVer":"v2.0","tokenRequestorDsAgreementDt":"2025-10-01","issuerSubmittedTokenRequestor":"N","tokenRequestorContactEmail":"contact@example.com","tokenRequestorContactName":"Jane Doe","tokenRequestorContactPhone":"+971501234567","tokenRequestorContactTitle":"Partnership Manager","tokenRequestorContactUrl":"https://example.com/contact","tokenRequestorTokenServiceUrl":"https://api.example.com/token","tokenRequestorTokenServiceVer":"1.0.0","tokenRequestorTokenServiceDt":"2025-09-30","tokenRequestorLogoPath":"/assets/logos/example.png","tokenRequestorSignaturePath":"/assets/signatures/example.png","tokenRequestorDsAgreementPath":"/docs/agreement.pdf","kekId":"kek-001","kekValue":"encrypted-kek-value","dekId":"dek-001","dekValue":"encrypted-dek-value","rsaKey":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn...","rsaAlgorithm":"RSA1_5"}
+[2025-10-19 13:26:59] INFO: ✅ File moved to: /home/ruthvikchandravanam/onboarding/onboarding/done
+
+[2025-10-19 13:26:59] INFO: 📊 Summary: 1 processed, 0 moved to exception.
+[2025-10-19 13:26:59] INFO: 🏁 Job 'TR' completed.

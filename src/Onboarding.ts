@@ -23,6 +23,7 @@ export class Onboarding {
     this.logger = new LoggerHelper({
       logName: `/logs/${this.job}.log`,
       logDir: this.onboardingPath,
+      enableConsole: false
     });
 
     // Ensure required folders exist
