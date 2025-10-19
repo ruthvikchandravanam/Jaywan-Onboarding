@@ -4,6 +4,7 @@ import { resolve } from 'path';
 import JsonReaderHelper from './helpers/JsonReaderHelper.js';
 import { FileMover } from './helpers/FileMover.js';
 import { MemberTypeFactory } from './Factory/MemberTypeFactory.js';
+import { Database } from './ORM/DB.js';
 
 class Onboarding {
   onboardingPath = resolve('./onboarding');
@@ -62,13 +63,19 @@ class Onboarding {
   }
 
   public async run(): Promise<void> {
+    const db = Database.getInstance();
+
     try {
+      await db.connect();
+
       await this.initialize();
       await this.process();
+
     } catch (error) {
       this.logger.error(`Error: ${String(error)}`);
     } finally {
       await this.close();
+      await db.disconnect();
     }
   }
 }

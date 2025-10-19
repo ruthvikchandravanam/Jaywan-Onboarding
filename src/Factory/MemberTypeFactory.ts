@@ -1,4 +1,4 @@
-import AppDataSource from '../ORM/DB.js';
+import { Database } from '../ORM/DB.js';
 // TR
 import type TokenRequestorsDetailsInterface from "../FileInterface/TokenRequestorDetails.js";
 import { TokenRequestorDetailsORM } from '../ORM/TR.js';
@@ -7,37 +7,18 @@ import { IssuerORM, IssuerBinORM, TokenBinRangeORM, TokenBinSubrangeORM } from '
 import { IssuerFileInterface } from '../FileInterface/Issuer.js';
 
 
-async function bootstrap() {
-    try {
-        await AppDataSource.initialize();
-        // console.log('Data Source has been initialized!');
 
-        // Now you can safely use repositories or query runners
-        const issuerRepo = AppDataSource.getRepository(IssuerORM);
-        const allIssuers = await issuerRepo.find();
-        // console.log(allIssuers);
-
-    } catch (error) {
-        // console.error('Error during Data Source initialization', error);
-    }
-}
-
-async function shutdownDataSource() {
-    if (AppDataSource.isInitialized) {
-        await AppDataSource.destroy();
-        console.log('Data Source connection closed.');
-    }
-}
 
 interface MemberHandler {
     process(fileContentObj: any): Promise<void>;
 }
 class TokenRequestorHandler implements MemberHandler {
     async process(fileContentObj: any) {
-        await bootstrap();
+        const db = Database.getInstance();
+        await db.connect();
         const TRContent: TokenRequestorsDetailsInterface = fileContentObj as TokenRequestorsDetailsInterface;
 
-        const TRRepo = AppDataSource.getRepository(TokenRequestorDetailsORM);
+        const TRRepo = db.getDataSource().getRepository(TokenRequestorDetailsORM);
         const TRRepoDetails: TokenRequestorDetailsORM = {
             name: 'TRContent.tokenRequestorName',
             tokenRequestorId: '1121212',
@@ -50,19 +31,19 @@ class TokenRequestorHandler implements MemberHandler {
         await TRRepo.save(TRRepo.create(TRRepoDetails));
         // console.log('TRDetails saved successfully!');
 
-        await shutdownDataSource();
     }
 }
 
 class IssuerHandler implements MemberHandler {
     async process(fileContentObj: any) {
-        await bootstrap();
-        // console.log(AppDataSource.entityMetadatas.map(e => e.name));
+        const db = Database.getInstance();
+        await db.connect();
+        // console.log(db.getDataSource().entityMetadatas.map(e => e.name));
 
         const issuerContent: IssuerFileInterface = fileContentObj as IssuerFileInterface;
 
         // Issuer Table
-        const issuerRepo = AppDataSource.getRepository(IssuerORM);
+        const issuerRepo = db.getDataSource().getRepository(IssuerORM);
         const issuerRepoDetails: IssuerORM = {
             issuerID: issuerContent.issuerID,
             issuer_name: issuerContent.issuerName,
@@ -79,7 +60,7 @@ class IssuerHandler implements MemberHandler {
         for (const iBIN of issuerContent.issuerBIN) {
 
             // Issuer BIN Table
-            const issuerBINRepo = AppDataSource.getRepository(IssuerBinORM);
+            const issuerBINRepo = db.getDataSource().getRepository(IssuerBinORM);
             const issuerBINRepoDetails: IssuerBinORM = {
                 issuerID: issuerContent.issuerID,
                 bin: iBIN.BIN,
@@ -102,7 +83,7 @@ class IssuerHandler implements MemberHandler {
             for (const tBIN of iBIN.tokenBIN) {
 
                 // Token BIN Range Table
-                const tokenBINRangeRepo = AppDataSource.getRepository(TokenBinRangeORM);
+                const tokenBINRangeRepo = db.getDataSource().getRepository(TokenBinRangeORM);
                 const tokenBINRangeRepoDetails: TokenBinRangeORM = {
                     issuerID: issuerContent.issuerID,
                     bin: iBIN.BIN,
@@ -112,7 +93,7 @@ class IssuerHandler implements MemberHandler {
                 await tokenBINRangeRepo.save(tokenBINRangeRepo.create(tokenBINRangeRepoDetails));
 
                 // Token BIN Sub Range Table
-                const tokenBINSubRangeRepo = AppDataSource.getRepository(TokenBinSubrangeORM);
+                const tokenBINSubRangeRepo = db.getDataSource().getRepository(TokenBinSubrangeORM);
                 const tokenBINSubRangeDetails: TokenBinSubrangeORM[] = [
                     {
                         issuerID: issuerContent.issuerID,
@@ -169,8 +150,6 @@ class IssuerHandler implements MemberHandler {
                 await tokenBINSubRangeRepo.save(entities);
             }
         }
-        await shutdownDataSource();
-
     }
 }
 export class MemberTypeFactory {
