@@ -5,7 +5,7 @@ import { MemberTypeFactory } from './Factory/MemberTypeFactory.js';
 import { Database } from './ORM/DB.js';
 import FolderScannerHelper from './helpers/FolderScanner.js';
 import LoggerHelper from './helpers/Logger.js';
-import { FileMover } from './helpers/FileMover.js';
+import FileMover from './helpers/FileMover.js';
 import JsonReaderHelper from './helpers/JsonReaderHelper.js';
 
 export class Onboarding {

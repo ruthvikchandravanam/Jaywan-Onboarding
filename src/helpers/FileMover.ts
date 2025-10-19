@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 
-export class FileMover {
+export default class FileMover {
     /**
      * Move a file from source to destination folder.
      * Creates destination folder if it doesn't exist.

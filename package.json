@@ -1,5 +1,5 @@
 {
-  "name": "Token-Requestor-Onboarding",
+  "name": "NTS-and-SCX-Onboarding",
   "version": "1.0.0",
   "type": "module",
   "description": "Utility to onboard Token Requestors",
@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.js"
+    "dev": "NODE_ENV=DEV node dist/app.js",
+    "prd": "NODE_ENV=PRD node dist/app.js"
   },
   "dependencies": {
     "glob": "^11.0.3",
