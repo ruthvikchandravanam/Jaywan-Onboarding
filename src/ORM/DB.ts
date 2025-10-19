@@ -1,11 +1,6 @@
 import { DataSource } from 'typeorm';
 import { TokenRequestorDetailsORM } from './TR.js';
-import {
-  IssuerORM,
-  IssuerBinORM,
-  TokenBinRangeORM,
-  TokenBinSubrangeORM,
-} from '../ORM/Issuer.js';
+import { IssuerORM, IssuerBinORM, TokenBinRangeORM, TokenBinSubrangeORM } from '../ORM/Issuer.js';
 
 export class Database {
   private static instance: Database;
@@ -19,7 +14,7 @@ export class Database {
       username: 'nts_user',
       password: 'nts@12345',
       database: 'nts_tpse',
-      synchronize: false,
+      synchronize: true,
       logging: false,
       entities: [
         TokenRequestorDetailsORM,
@@ -28,12 +23,10 @@ export class Database {
         TokenBinRangeORM,
         TokenBinSubrangeORM,
       ],
-
-      // ✅ Connection pool configuration
       extra: {
-        connectionLimit: 10,  // max number of connections in the pool
-        queueLimit: 0,        // unlimited queued connections
+        connectionLimit: 10,
         waitForConnections: true,
+        queueLimit: 0,
       },
     });
   }
@@ -45,29 +38,34 @@ export class Database {
     return Database.instance;
   }
 
-  public async connect(): Promise<void> {
-    try {
-      if (!this.dataSource.isInitialized) {
-        await this.dataSource.initialize();
-        console.log('✅ Database pool opened and connected successfully');
+  public getDataSource(): DataSource {
+    return this.dataSource;
+  }
+
+  public async connect(retries = 3, delayMs = 2000): Promise<void> {
+    for (let attempt = 1; attempt <= retries; attempt++) {
+      try {
+        if (!this.dataSource.isInitialized) {
+          await this.dataSource.initialize();
+          console.log('✅ Database connected successfully');
+        }
+        return;
+      } catch (error: any) {
+        console.error(`❌ DB connection attempt ${attempt} failed: ${error.message}`);
+        if (attempt === retries) throw new Error(`Database connection failed after ${retries} attempts: ${error.message}`);
+        await new Promise((res) => setTimeout(res, delayMs));
       }
-    } catch (error) {
-      console.error('❌ Error during Data Source initialization:', error);
     }
   }
 
   public async disconnect(): Promise<void> {
-    try {
-      if (this.dataSource.isInitialized) {
+    if (this.dataSource.isInitialized) {
+      try {
         await this.dataSource.destroy();
-        console.log('🔌 Database pool closed.');
+        console.log('🔌 Database disconnected successfully');
+      } catch (error) {
+        console.error('❌ Error during DB disconnect:', error);
       }
-    } catch (error) {
-      console.error('❌ Error while closing the Data Source:', error);
     }
-  }
-
-  public getDataSource(): DataSource {
-    return this.dataSource;
   }
 }

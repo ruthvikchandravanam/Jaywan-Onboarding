@@ -1,12 +1,10 @@
 import 'reflect-metadata';
-import Onboarding from './Onboarding.js';
+import { Onboarding } from './Onboarding.js';
 
-const TR = new Onboarding('TR');
-const Issuer = new Onboarding('Issuer');
-const ThreeDSS = new Onboarding('ThreeDSS');
-const ACS = new Onboarding('ACS');
+(async () => {
+  const IssueOnboardingJob = new Onboarding('Issuer');
+  await IssueOnboardingJob.run();
 
-TR.run();
-Issuer.run();
-// ThreeDSS.run();
-// ACS.run();
+  const TROnboardingJob = new Onboarding('TR');
+  await TROnboardingJob.run();
+})();
